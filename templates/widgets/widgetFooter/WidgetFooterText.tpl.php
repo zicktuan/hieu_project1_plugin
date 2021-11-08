@@ -1,0 +1,2 @@
+<h4 class="widget-title"><?php echo (isset($instance['title']) && !empty($instance['title'])) ? $instance['title'] : '' ?></h4>
+<?php echo (isset($instance['desc']) && !empty($instance['desc'])) ? '<p>'.$instance['desc'].'</p>' : '' ?>
