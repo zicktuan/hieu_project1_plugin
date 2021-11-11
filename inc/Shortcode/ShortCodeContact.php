@@ -54,6 +54,11 @@ class ShortCodeContact extends AbstractShortcode
                 'param_name' => 'about_desc',
                 'heading'    => esc_html__('Mô tả', 'GMO'),
             ],
+            [
+                'type'       => 'textfield',
+                'param_name' => 'about_url_map',
+                'heading'    => esc_html__('Địa chỉ map', 'GMO'),
+            ],
         );
 
         return array(
