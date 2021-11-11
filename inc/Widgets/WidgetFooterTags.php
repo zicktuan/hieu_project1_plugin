@@ -7,7 +7,7 @@ class WidgetFooterTags extends AbstractWidget
     function __construct()
     {
         // Instantiate the parent object
-        parent::__construct(false, 'Awesome Footer Tag');
+        parent::__construct("awesome_footer_tag", 'Awesome Footer Tag');
     }
 
     function widget($args, $instance)

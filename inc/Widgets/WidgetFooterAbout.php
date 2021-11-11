@@ -6,7 +6,7 @@ class WidgetFooterAbout extends AbstractWidget
 {
     function __construct() {
         // Instantiate the parent object
-        parent::__construct( false, 'Awesome Footer About' );
+        parent::__construct( 'awesome_footer_about', 'Awesome Footer About' );
     }
 
     function widget( $args, $instance ) {
