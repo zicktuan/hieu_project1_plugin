@@ -11,7 +11,7 @@
                         <div class="recent-post">
                             <div class="media">
                                 <a class="pull-left media-link" href="#">
-                                    <img class="media-object" src="<?php echo get_the_post_thumbnail_url( $post->ID, 'gmo-thumbnail-170x120' ); ?>" alt="">
+                                    <img class="media-object" src="<?php echo get_the_post_thumbnail_url( $post->ID, ['gmo-thumbnail-170x120'] ); ?>" alt="">
                                     <i class="fa fa-plus"></i>
                                 </a>
                                 <div class="media-body">

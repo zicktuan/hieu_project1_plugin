@@ -6,6 +6,7 @@ use GMO\Shortcode\Home\ShortCodeSection1;
 use GMO\Shortcode\Home\ShortCodeMessageBox;
 use GMO\Shortcode\Home\ShortCodeSlide;
 use GMO\Shortcode\Home\ShortCodeInfoBanner;
+use GMO\Shortcode\Home\ShortCodeCatProduct;
 use GMO\Shortcode\Home\ShortCodeProduct;
 use GMO\Shortcode\ShortCodeAbout;
 use GMO\Shortcode\ShortCodeContact;
@@ -34,6 +35,7 @@ class ShortcodeInit
 		new ShortCodeContact($this);
 		new ShortCodeProduct($this);
 		new ShortCodePost($this);
+		new ShortCodeCatProduct($this);
 	}
 
 	/**

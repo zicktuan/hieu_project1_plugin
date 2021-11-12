@@ -3,7 +3,7 @@ namespace GMO\Taxonomies;
 
 class ProductTaxonomie extends AbstractTaxonomies {
 
-	protected $taxonomie = 'product';
+	protected $taxonomie = 'product_category';
 
 	protected $argsPostType = ['nat_product'];
 
@@ -13,17 +13,17 @@ class ProductTaxonomie extends AbstractTaxonomies {
 
 	public function labels(){
 		return array(
-			'name'              => _x( 'Product', 'taxonomy general name', 'GMO' ),
-			'singular_name'     => _x( 'Product', 'taxonomy singular name', 'GMO' ),
-			'search_items'      => __( 'Tìm kiếm sản phẩm', 'GMO' ),
-			'all_items'         => __( 'Tất cả sản phẩm', 'GMO' ),
-			'parent_item'       => __( 'Parent Product', 'GMO' ),
-			'parent_item_colon' => __( 'Parent Product:', 'GMO' ),
-			'edit_item'         => __( 'Edit Product', 'GMO' ),
-			'update_item'       => __( 'Update Product', 'GMO' ),
-			'add_new_item'      => __( 'Add New Product', 'GMO' ),
-			'new_item_name'     => __( 'New Product Name', 'GMO' ),
-			'menu_name'         => __( 'Product', 'GMO' ),
+			'name'              => _x( 'Product category', 'taxonomy general name', 'GMO' ),
+			'singular_name'     => _x( 'Product category', 'taxonomy singular name', 'GMO' ),
+			'search_items'      => __( 'Tìm kiếm danh mục sản phẩm', 'GMO' ),
+			'all_items'         => __( 'Tất cả danh mục sản phẩm', 'GMO' ),
+			'parent_item'       => __( 'Parent Product category', 'GMO' ),
+			'parent_item_colon' => __( 'Parent Product category:', 'GMO' ),
+			'edit_item'         => __( 'Edit Product category', 'GMO' ),
+			'update_item'       => __( 'Update Product category', 'GMO' ),
+			'add_new_item'      => __( 'Add New Product category', 'GMO' ),
+			'new_item_name'     => __( 'New Product category Name', 'GMO' ),
+			'menu_name'         => __( 'Product category', 'GMO' ),
 		);
 	}
 
@@ -34,7 +34,7 @@ class ProductTaxonomie extends AbstractTaxonomies {
 			'show_ui'           => true,
 			'show_admin_column' => false,
 			'query_var'         => true,
-			'rewrite'           => array( 'slug' => 'product' ),
+			'rewrite'           => array( 'slug' => 'product_category' ),
 		);
 	}
 
